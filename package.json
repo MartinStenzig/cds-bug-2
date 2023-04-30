@@ -4,15 +4,28 @@
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@sap/cds": "^6",
     "express": "^4"
   },
   "devDependencies": {
-    "sqlite3": "^5"
+    "@sap/eslint-plugin-cds": "^2.3.5",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chai-subset": "^1.6.0",
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "mocha": "^10.2.0",
+    "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "test": "mocha --recursive true ./test/cases/**/*_test.js"
   }
 }
