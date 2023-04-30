@@ -1,2 +1,8 @@
-# cds-bug-2
-Problem replication of multiple mocha test cases and no return to command line
+# CDS Test problem replication
+
+These are the steps I took to create the project
+1. cds init
+2. cds add samples
+
+
+
