@@ -26,6 +26,6 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "test": "mocha --recursive true ./test/cases/**/*_test.js"
+    "test": "mocha --exit --recursive true ./test/cases/**/*_test.js"
   }
 }

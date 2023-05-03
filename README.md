@@ -1,5 +1,8 @@
 # CDS Test problem replication
 
+FIXED!!!
+The work around is a simple --exit flag on the mocha command.(see this thread for details: https://answers.sap.com/questions/13875495/cap-node-js-mocha-test-not-returning-to-prompt-whe.html) 
+
 ## To reproduce the problem
 1. Clone this repo
 2. npm install
